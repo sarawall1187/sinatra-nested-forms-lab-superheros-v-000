@@ -14,6 +14,7 @@ class App < Sinatra::Base
       # @motto = params[:team][:motto]
       params[:team][:heroes].each do |details|
        SuperHero.new(details)
+     end
 
       erb :team
     end
