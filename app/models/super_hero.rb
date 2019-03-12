@@ -1,7 +1,7 @@
 class SuperHero
   attr_accessor :name, :power, :bio
   @@all = []
-  def intitialize(name, power, bio)
+  def initialize(name, power, bio)
     @name = name
     @power = power
     @bio = bio
