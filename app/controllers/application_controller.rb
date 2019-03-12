@@ -9,6 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
+      binding.pry
       @teams = Team.new(params[:team])
       # @name = params[:team][:name]
       # @motto = params[:team][:motto]
