@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      @name = 
+      @name =
 
       erb :team
     end
