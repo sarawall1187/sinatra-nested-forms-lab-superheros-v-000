@@ -5,5 +5,5 @@ class Team
     @name = name
     @motto = motto
   end
-  
+
 end
